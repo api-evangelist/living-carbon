@@ -1,8 +1,24 @@
 aid: living-carbon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/living-carbon.png
 name: Living Carbon
-description: 'Living Carbon is a company surfaced as a portfolio company of homebrew and added to the
-  API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Living Carbon is a reforestation and carbon removal company that restores abandoned
+  mineland and degraded agricultural land in the United States, generating income for landowners while
+  producing high-quality carbon removal credits with true additionality, limited leakage, and unique
+  co-benefits. It develops fast-growing poplar trees for permanent land restoration and for custom
+  biomass feedstock sited near processing facilities. Backed by Homebrew and surfaced through the API
+  Evangelist network as a climate-sector company profile; the company publishes no public developer,
+  API, or technical surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/living-carbon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Climate
+- Carbon Removal
+- Reforestation
+- Carbon Credits
+- Biomass
+- Land Restoration
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.livingcarbon.com
+- type: PrivacyPolicy
+  url: https://www.livingcarbon.com/privacy-policy
+- type: About
+  url: https://www.livingcarbon.com/about
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
